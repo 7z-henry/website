@@ -1,0 +1,19 @@
+.button {
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 60px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.button:hover {
+    opacity: 1
+}
