@@ -1,9 +1,9 @@
-ErrorDocument 400 https://www.7zz.shop/
-ErrorDocument 401 https://www.7zz.shop/
-ErrorDocument 403 https://www.7zz.shop/
-ErrorDocument app https://www.7zz.shop/
-ErrorDocument 500 https://www.7zz.shop/
-ErrorDocument 503 https://www.7zz.shop/
+ErrorDocument 400 index.html
+ErrorDocument 401 index.html
+ErrorDocument 403 index.html
+ErrorDocument app index.html
+ErrorDocument 500 index.html
+ErrorDocument 503 index.html
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
