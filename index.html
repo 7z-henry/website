@@ -139,11 +139,6 @@
             margin-right: 3px;
         }
     </style>
-    <script>
-        function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-        }
-    </script>
 </head>
 
 <body>
@@ -170,14 +165,23 @@
                             alt="Buy Now with sellix.io">
                             Discord Server to Level 3 for 3 Months
                         </button>
-                        <button class="g-recaptcha" 
-        data-sitekey="reCAPTCHA_site_key" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>
                             <button class="button" data-sellix-product="622a36f340694" type="submit"
                                 alt="Buy Now with sellix.io">
                                 TikTok 4l / 4c Checker
                             </button>
+                            <script>
+                                function onClick(e) {
+                                  e.preventDefault();
+                                  grecaptcha.ready(function() {
+                                    grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+                                        <button class="button" data-sellix-product="625077ec79f95" type="submit"
+                                alt="Buy Now with sellix.io">
+                                Spotify Lifetime Updated
+                            </button>
+                                    });
+                                  });
+                                }
+                            </script>
                             <button class="button" data-sellix-product="625077ec79f95" type="submit"
                                 alt="Buy Now with sellix.io">
                                 Spotify Lifetime Updated
@@ -220,9 +224,9 @@
                     }
                 });
             });
-        </script>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
+        </script>>
         <script src="//code.tidio.co/yiel5bknfi80jnavgyzrsxnh1slgmshc.js" async></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
 </body>
 
 </html>
