@@ -1,151 +1,161 @@
-.pricing-area-16 {
-    align-items: center;
-    justify-content: space-between
+p.logo-txt {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700
+}
+
+li.disabled {
+    opacity: .6;
+    text-decoration: line-through
+}
+
+b.automated-bold {
+    color: #ff8a00
+}
+
+section.faq-section.padding-top {
+    margin-bottom: 125px
+}
+
+body.darkmode {
+    color: #8c9dbf;
+    background-image: initial;
+    background-color: #1d2021
+}
+
+h1#intro-title.title.darkmode {
+    color: #e8e6e3
+}
+
+p#intro-desc.darkmode {
+    color: rgba(232, 230, 227, .9)
+}
+
+#feature-title-h2-2.title.darkmode {
+    color: #e8e6e3
+}
+
+h2.title.darkmode {
+    color: #86a0d0
+}
+
+h5.title {
+    color: #86a0d0
+}
+
+a.button-3.darkmode {
+    color: #86a0d0;
+    border: 1px solid #cac7f6
+}
+
+a.button-3.darkmode:hover {
+    color: #fff;
+    border: 1px solid #cac7f6
+}
+
+a#howSectionPurchaseButton.darkmode {
+    color: #fff;
+    border: #fff
+}
+
+a#howSectionPurchaseButton.darkmode:hover {
+    background: -webkit-linear-gradient(118deg, #c165dd 0%, #1153fc 100%)
 }
 
 .pricing-item-16 {
-    text-align: center;
-    font-family: josefin sans, sans-serif;
-    padding: 40px 15px;
-    border: 1px solid rgba(102, 124, 216, .2);
-    border-radius: 30px;
-    -webkit-transition: all ease .3s;
-    -moz-transition: all ease .3s;
-    transition: all ease .3s;
-    position: relative;
-    margin-bottom: 30px;
-    width: calc((100% - 370px)/2);
-    background-color: #fff
+    width: calc((80% - 370px)/2)
 }
 
-.pricing-item-16:nth-of-type(3n+1) {
-    border-right: none
+.pricing-item-16.active {
+    width: calc((80% - 370px)/2)
 }
 
-.pricing-item-16:nth-of-type(3n+3) {
-    border-left: none
+.sellix-iframe-loader {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    width: 35px!important;
+    height: 35px!important
 }
 
-.pricing-item-16 .pricing-header {
-    margin-bottom: 40px
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
 
-.pricing-item-16 .pricing-header .icon {
-    margin-bottom: 27px
+.disabled-btn {
+    cursor: no-drop;
+    color: #fff!important;
+    border-color: transparent;
+    background: #f05448!important;
+    box-shadow: 0 17px 24px 0 rgb(18 83 252/51%);
+    margin-bottom: 10px
 }
 
-.pricing-item-16 .pricing-header .icon img {
-    max-width: 100%
+.disabled-btn:hover {
+    cursor: no-drop;
+    color: #fff!important;
+    border-color: transparent;
+    background: #f05448!important;
+    box-shadow: 0 17px 24px 0 rgb(18 83 252/51%);
+    margin-bottom: 10px
 }
 
-.pricing-item-16 ul {
-    margin-bottom: 55px
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4)
 }
 
-.pricing-item-16 ul li {
-    padding: 0;
-    color: #3b368c;
-    margin-bottom: 12px
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 50%
 }
 
-.pricing-item-16 .title {
-    font-weight: 500;
-    color: #ff8a00;
-    margin-bottom: 28px;
+.modal-heading {
+    padding-top: 1.2rem;
+    padding-bottom: 1.6rem;
+    font-size: 36px;
     line-height: 1
 }
 
-@media(min-width:768px) {
-    .pricing-item-16 .title {
-        font-size: 46px
+@media only screen and (max-width:600px) {
+    .modal-content {
+        width: 80%;
+        margin-top: 8rem
     }
 }
 
-.pricing-item-16 .button-3 {
-    border-color: transparent;
-    text-transform: capitalize
+#resellerPlanPaypal-content h5 {
+    padding-top: 1.2rem;
+    padding-bottom: 1.6rem;
+    font-size: 36px;
+    line-height: 1
 }
 
-.pricing-item-16.active {
-    background: -moz-linear-gradient(90deg, #4050e9 0%, #a12ffe 100%);
-    background: -webkit-linear-gradient(90deg, #4050e9 0%, #a12ffe 100%);
-    background: -ms-linear-gradient(90deg, #4050e9 0%, #a12ffe 100%);
-    animation: fadeIn .3s;
-    -webkit-animation: fadeIn .3s;
-    -moz-animation: fadeIn .3s
+#resellerPlanPaypal-content h6 {
+    font-size: 1.2rem
 }
 
-.pricing-item-16.active ul li,
-.pricing-item-16.active .subtitle,
-.pricing-item-16.active .button-3 {
-    color: #fff!important
-}
-
-.pricing-item-16.active {
-    padding: 80px 15px;
-    width: 350px
-}
-
-@media(max-width:1199px) {
-    .pricing-item-16 {
-        width: calc((100% - 20px)/3)!important
-    }
-}
-
-@media(max-width:991px) {
-    .pricing-item-16 {
-        width: 100%!important;
-        max-width: 350px;
-        margin: 0 auto 30px;
-        border: 1px solid rgba(102, 124, 216, .2)!important
-    }
-}
-
-.pricing-range .pricing-header {
-    margin-bottom: 116px
-}
-
-.pricing-range .pricing-header .cate {
-    display: block;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 17px;
-    color: #3b368c
-}
-
-.pricing-range .pricing-header .select-container {
-    max-width: 270px;
-    margin: 0 auto
-}
-
-.pricing-range .pricing-header .select-bar {
-    height: 44px;
-    border: 1px solid #cac7f6;
-    background-color: rgba(105, 105, 201, .102);
-    width: 100%;
-    color: #3b368c;
-    -webkit-border-radius: 22px;
-    -moz-border-radius: 22px;
-    border-radius: 22px
-}
-
-@media(max-width:1199px) and (min-width:992px) {
-    .pricing-range .pricing-header {
-        margin-bottom: 100px
-    }
-}
-
-@media(max-width:575px) {
-    .pricing-range .pricing-header {
-        margin-bottom: 90px
-    }
-}
-
-.feature-tabs li a .subtitle {
-    text-transform: capitalize;
-    color: #3b368c
-}
-
-.feature-tabs li a.active .subtitle {
-    color: #ee4730
+#resellerPlanPaypal-content h6 a {
+    color: #ff8b02!important
 }
