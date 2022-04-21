@@ -1,0 +1,161 @@
+p.logo-txt {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700
+}
+
+li.disabled {
+    opacity: .6;
+    text-decoration: line-through
+}
+
+b.automated-bold {
+    color: #ff8a00
+}
+
+section.faq-section.padding-top {
+    margin-bottom: 125px
+}
+
+body.darkmode {
+    color: #8c9dbf;
+    background-image: initial;
+    background-color: #1d2021
+}
+
+h1#intro-title.title.darkmode {
+    color: #e8e6e3
+}
+
+p#intro-desc.darkmode {
+    color: rgba(232, 230, 227, .9)
+}
+
+#feature-title-h2-2.title.darkmode {
+    color: #e8e6e3
+}
+
+h2.title.darkmode {
+    color: #86a0d0
+}
+
+h5.title {
+    color: #86a0d0
+}
+
+a.button-3.darkmode {
+    color: #86a0d0;
+    border: 1px solid #cac7f6
+}
+
+a.button-3.darkmode:hover {
+    color: #fff;
+    border: 1px solid #cac7f6
+}
+
+a#howSectionPurchaseButton.darkmode {
+    color: #fff;
+    border: #fff
+}
+
+a#howSectionPurchaseButton.darkmode:hover {
+    background: -webkit-linear-gradient(118deg, #c165dd 0%, #1153fc 100%)
+}
+
+.pricing-item-16 {
+    width: calc((80% - 370px)/2)
+}
+
+.pricing-item-16.active {
+    width: calc((80% - 370px)/2)
+}
+
+.sellix-iframe-loader {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    width: 35px!important;
+    height: 35px!important
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.disabled-btn {
+    cursor: no-drop;
+    color: #fff!important;
+    border-color: transparent;
+    background: #f05448!important;
+    box-shadow: 0 17px 24px 0 rgb(18 83 252/51%);
+    margin-bottom: 10px
+}
+
+.disabled-btn:hover {
+    cursor: no-drop;
+    color: #fff!important;
+    border-color: transparent;
+    background: #f05448!important;
+    box-shadow: 0 17px 24px 0 rgb(18 83 252/51%);
+    margin-bottom: 10px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 50%
+}
+
+.modal-heading {
+    padding-top: 1.2rem;
+    padding-bottom: 1.6rem;
+    font-size: 36px;
+    line-height: 1
+}
+
+@media only screen and (max-width:600px) {
+    .modal-content {
+        width: 80%;
+        margin-top: 8rem
+    }
+}
+
+#resellerPlanPaypal-content h5 {
+    padding-top: 1.2rem;
+    padding-bottom: 1.6rem;
+    font-size: 36px;
+    line-height: 1
+}
+
+#resellerPlanPaypal-content h6 {
+    font-size: 1.2rem
+}
+
+#resellerPlanPaypal-content h6 a {
+    color: #ff8b02!important
+}
