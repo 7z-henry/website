@@ -1,10 +1,10 @@
-ErrorDocument 400 /index.html
-ErrorDocument 401 /index.html
-ErrorDocument 403 /index.html
-ErrorDocument app /index.html
-ErrorDocument 500 /index.html
-ErrorDocument 503 /index.html
-ErrorDocument 404 /index.html
+ErrorDocument 400 index.html
+ErrorDocument 401 index.html
+ErrorDocument 403 index.html
+ErrorDocument app index.html
+ErrorDocument 500 index.html
+ErrorDocument 503 index.html
+ErrorDocument 404 index.html
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
