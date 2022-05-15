@@ -1,151 +1,280 @@
 {
-    "META": {
-        "repoName": "7zz Test Repo",
-        "repoIcon": "https://usescarlet.com/img/icon.png"
+  "META": {
+    "repoName": "AppInstaller iOS",
+    "repoIcon": "https://icons.appinstallerios.com/AppInstalleriOSIcon.png"
+  },
+  "Tweaked": [
+    {
+      "name": "unc0ver",
+      "version": "6.1.2",
+      "icon": "https://icons.appinstallerios.com/Unc0verIcon.png",
+      "down": "https://unc0ver.dev/downloads/6.1.2/56dd2827d0f4585f6cf21a8e08a1a4eba6f2cdb2/unc0ver_Release_6.1.2.ipa",
+      "dev": "pwn20wnd",
+      "banner": "https://appinstallerios.com/img/Unc0verBanner.png",
+      "category": "Jailbreaks",
+      "description": "Jailbreak iOS 11 - 14.3",
+      "bundleID": "science.xnu.undecimus",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://appinstallerios.com/Img/Screenshots/Unc0verScreenshot1.png",
+        "https://appinstallerios.com/Img/Screenshots/Unc0verScreenshot2.png"
+      ],
+      "contact": {
+        "web": "https://AppInstalleriOS.com",
+        "twitter": "https://twitter.com/appinstallerios"
+      }
     },
-    "Tweaked": [{
-        "name": "uYou",
-        "version": "16.42.3",
-        "down": "https://miro92.com/repo/depictions/com.miro.uyou/iPA/YouTube_16.42.3_uYou_2.1.ipa",
-        "category": "Tweaked Apps",
-        "description": "True ad-less YouTube...",
-        "bundleID": "com.google.ios.youtube",
-        "appstore": "com.google.ios.youtube",
-        "contact": {
-            "web": "https://repo.twickd.com",
-            "twitter": "https://twitter.com/twickdrepo"
-        }
-    }, {
-        "name": "iPogo",
-        "version": "0.237.0",
-        "down": "https://ipogo.app/download/ipogo-2.5.3.ipa",
-        "category": "Tweaked Apps",
-        "description": "With iPogo you get a full set of tools to help you be the best. iPogo is a Simple, Powerful and Intuitive App.",
-        "bundleID": "com.nianticlabs.pokemongo",
-        "appstore": "com.nianticlabs.pokemongo"
-    }, {
-        "name": "SpooferX",
-        "version": "0.237.0",
-        "down": "https://www.spooferx.app/ipa/SpooferPro-0.237.0-0.78.ipa",
-        "category": "Tweaked Apps",
-        "changelog": "- Added Support for Latest version\n- Fixed Scarlet install error",
-        "description": "SpooferX for Pokémon GO is an enhanced edition of the Pokémon GO app, adding a joystick and with free teleport ! It also include a lot of others features : IV checking, enhanced throw, auto walking and GPX, fast catch trick, a live feed and even a map with everything around you !",
-        "bundleID": "com.nianticlabs.pokemongo",
-        "appstore": "com.nianticlabs.pokemongo"
-    }, {
-        "name": "Sposify++",
-        "version": "8.6.42",
-        "icon": "https://usescarlet.com/icons/spotify.png",
-        "down": "https://resources.usescarlet.com/repo/IPAs/Spotify.ipa",
-        "category": "Tweaked Apps",
-        "description": "Sposify and Spotilife tweak merged into one app",
-        "bundleID": "com.spotify.client",
-        "appstore": "com.spotify.client",
-        "debs": [
-            "https://usescarlet.com/debs/Spotilife.dylib",
-            "https://usescarlet.com/debs/Sposify.dylib",
-            "https://usescarlet.com/debs/SposifyFix.dylib"
-        ],
-        "changelog": "- Updated Spotilife and Sposify to latest version\n- Applied SposifyFix patch"
-    }, {
-        "name": "Instagram Rhino",
-        "version": "187.0",
-        "icon": "https://iosninja.io/img/ipas/instagram_rhino.png",
-        "down": "https://resources.usescarlet.com/repo/IPAs/instagramRhino.ipa",
-        "category": "Tweaked Apps",
-        "bundleID": "com.rhino.InstagramApp",
-        "appstore": "com.burbn.instagram"
-    }, {
-        "name": "VideoStar",
-        "version": "8.3.2",
-        "icon": "https://usescarlet.com/icons/videostar.png",
-        "down": "https://resources.usescarlet.com/repo/IPAs/videostar.ipa",
-        "category": "Tweaked Apps",
-        "debs": [
-            "https://usescarlet.com/debs/videostar.dylib"
-        ],
-        "bundleID": "com.frontierdesign.videostar",
-        "appstore": "com.frontierdesign.videostar"
-    }],
-    "Jailbreaks": [{
-            "name": "Taurine",
-            "version": "1.1.3",
-            "icon": "https://cdn.discordapp.com/attachments/752890955236901055/829728600446074930/Taurine.png",
-            "down": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.3/Taurine-1.1.3.ipa",
-            "dev": "Odyssey-Team",
-            "category": "Jailbreaks",
-            "description": "Time to get amped.",
-            "bundleID": "com.odysseyteam.taurine",
-            "screenshots": [
-                "https://taurine.app/assets/images/iphones.png",
-                "https://taurine.app/assets/images/iphone.png"
-            ],
-            "contact": [
-                "https://taurine.app/",
-                "https://twitter.com/OdysseyTeam_"
-            ]
-        },
-        {
-            "name": "Odyssey",
-            "version": "1.4.2",
-            "icon": "https://theodyssey.dev/assets/images/icon.png",
-            "down": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.2/Odyssey-1.4.2.ipa",
-            "dev": "Odyssey-Team",
-            "category": "Jailbreaks",
-            "bundleID": "org.coolstar.odyssey",
-            "description": "A new jailbreak for a new era.",
-            "screenshots": [
-                "https://theodyssey.dev/assets/images/iphones.png",
-                "https://theodyssey.dev/assets/images/iphone.png"
-            ],
-            "contact": [
-                "https://theodyssey.dev/",
-                "https://twitter.com/OdysseyTeam_"
-            ]
-        },
-        {
-            "name": "unc0ver",
-            "version": "8.0.2",
-            "icon": "https://cdn.discordapp.com/attachments/752890955236901055/829731825802018896/unc0ver.png",
-            "down": "https://unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
-            "dev": "unc0ver-Team",
-            "category": "Jailbreaks",
-            "bundleID": "science.xnu.undecimus",
-            "banner": "https://resources.usescarlet.com/Banners/unc0verbanner.jpg",
-            "screenshots": [
-                "https://resources.usescarlet.com/Screenshots/unc0verpg1.png",
-                "https://resources.usescarlet.com/Screenshots/unc0verpg2.png",
-                "https://resources.usescarlet.com/Screenshots/unc0verpg3.png"
-            ],
-            "contact": [
-                "https://unc0ver.dev/",
-                "https://twitter.com/pwn20wnd"
-            ]
-        }
-    ],
-    "Hacked Games": [{
-        "name": "Agor.io",
-        "down": "https://resources.usescarlet.com/repo/IPAs/agario.ipa",
-        "version": "2.20.3",
-        "appstore": "com.miniclip.agar.io",
-        "bundleID": "com.miniclip.agar.io",
-        "category": "Hacked Games"
-    }],
-    "Emulators": [{
-        "name": "iNDS",
-        "version": "1.10.8",
-        "icon": "https://iosninja.io/img/ipas/inds.png",
-        "down": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
-        "category": "Emulators",
-        "description": "",
-        "bundleID": "net.nerd.iNDS"
-    }, {
-        "name": "Delta iPac",
-        "version": "1",
-        "icon": "https://raw.githubusercontent.com/rileytestut/Delta/main/Resources/Assets.xcassets/AppIcon.appiconset/icon-180.png",
-        "down": "https://github.com/ianclawson/Delta-iPac-Edition/releases/download/1.0.1/Delta-iPac.ipa",
-        "category": "Emulators",
-        "description": "A Fan-build of Delta, an all-in-one classic video game emulator for non-jailbroken iOS devices",
-        "bundleID": "com.ianclawson.DeltaPacEdition"
-    }]
+   {
+      "name": "SoundCloud++",
+      "version": "1.0.",
+      "icon": "https://icons.appinstallerios.com/SoundcloudIcon.png",
+      "down": "https://repo.saunderstech.co/apps/Lodging/SoundCloud++.ipa",
+      "dev": "SoundCloud",
+      "banner": "https://old.appinstallerios.com/img/SoundCloudBanner.png",
+      "category": "Tweaked Apps",
+      "description": "SoundCloud For Free!",
+      "bundleID": "com.AppInstalleriOS.SoundCloud",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://old.appinstallerios.com/img/SoundCloudScreenshot.png"
+      ],
+      "contact": {
+        "web": "https://m.soundcloud.com",
+        "twitter": "https://twitter.com/SoundCloud"
+      }
+    },
+   {
+      "name": "ZiniTevi",
+      "version": "1.0.",
+      "icon": "https://icons.appinstallerios.com/ZiniTeviIcon.png",
+      "down": "https://resources.appinstallerios.com/ZiniTevi.ipa",
+      "dev": "AppInstaller iOS",
+      "category": "Tweaked Apps",
+      "description": "Watch Movies For Free!",
+      "bundleID": "com.AppInstalleriOS.ZiniTevi",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://old.appinstallerios.com/img/b.png"
+      ],
+      "contact": {
+        "web": "https://appinstallerios.com",
+        "twitter": "https://twitter.com/AppInstalleriOS"
+      }
+    },
+   {
+      "name": "MediaBox HD",
+      "version": "1.0.",
+      "icon": "https://icons.appinstallerios.com/MediaBoxIcon.png",
+      "down": "https://mediaboxhd.net/ios/mediaboxhd1.ipa",
+      "dev": "MediaBox Team",
+      "category": "Tweaked Apps",
+      "description": "The Best Entertainment App For You And Your Family",
+      "bundleID": "com.AppInstalleriOS.MediaBoxHD",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://old.appinstallerios.com/img/MediaboxHDScreenshot.png"
+      ],
+      "contact": {
+        "web": "https://mediaboxhd.net",
+        "twitter": "https://twitter.com/mediaboxhd"
+      }
+    },
+    {
+      "name": "Taurine",
+      "version": "1.0.6",
+      "icon": "https://taurine.app/assets/images/icon.png",
+      "down": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.6/Taurine-1.0.6.ipa",
+      "dev": "Odyssey Team",
+      "banner": "https://appinstallerios.com/img/TaurineBanner.png",
+      "category": "Jailbreaks",
+      "description": "Jailbreak For iOS 14.0 - 14.3",
+      "bundleID": "com.odysseyteam.taurine",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://taurine.app/assets/images/ss-3.png"
+      ],
+      "contact": {
+        "web": "https://AppInstalleriOS.com",
+        "twitter": "https://twitter.com/appinstallerios"
+      }
+    },
+    {
+      "name": "Cercube 5",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/CercubeIcon.png",
+      "down": "https://ipa.app-valley.vip/158.com.google.ios.youtube.ipa?1624488487",
+      "dev": "AppInstaller iOS",
+      "category": "Tweaked Apps",
+      "description": "YouTube No Ads, And Plays In The Background",
+      "bundleID": "com.AppInstalleriOS.Cercube",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://old.appinstallerios.com/img/CercubeScreenShot1.PNG",
+        "https://old.appinstallerios.com/img/CercubeScreenShot2.PNG"
+      ],
+      "contact": {
+        "web": "https://AppInstalleriOS.com",
+        "twitter": "https://twitter.com/appinstallerios"
+      }
+    },
+    {
+      "name": "Fortnite",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/FortniteIcon.png",
+      "down": "https://repo.saunderstech.co/apps/Lodging/Fortnite.ipa",
+      "dev": "Epic Games",
+      "banner": "https:// old.appinstallerios.com/img/FortniteBanner.png",
+      "category": "Hacked Games",
+      "description": "Fortnite For iOS On The Best AppStore",
+      "bundleID": "com.AppInstalleriOS.Fortnite",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+      "https://appinstallerios.com/img/CercubeScreenShot2.PNG",
+       "https://appinstallerios.com/img/CercubeScreenShot2.PNG"
+      ],
+      "contact": {
+        "web": "https://Fortnite.com",
+        "twitter": "https://twitter.com/FortniteGame"
+      }
+    },
+    {
+      "name": "iPoGo",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/iPogoIcon.png",
+      "down": "https://repo.saunderstech.co/apps/Lodging/iPoGo.ipa",
+      "dev": "iPoGo Team",
+      "category": "Hacked Games",
+      "description": "With iPogo you get a full set of tools to help you be the best. iPogo is a Simple, Powerful and Intuitive App.",
+      "bundleID": "com.AppInstalleriOS.UTM",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+      "https://appinstallerios.com/img/CercubeScreenShot2.PNG",
+       "https://appinstallerios.com/img/CercubeScreenShot2.PNG"
+      ],
+      "contact": {
+        "web": "https://ipogo.app"
+      }
+    },
+    {
+      "name": "UTM",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/UTMIcon.png",
+      "down": "https://repo.saunderstech.co/apps/Lodging/UTM.ipa",
+      "dev": "UTM Team",
+      "category": "Emulators",
+      "description": "Run Virtual Machines On iOS",
+      "bundleID": "com.AppInstalleriOS.UTM",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+      "https://appinstallerios.com/img/CercubeScreenShot2.PNG",
+       "https://appinstallerios.com/img/CercubeScreenShot2.PNG"
+      ],
+      "contact": {
+        "web": "https://getutm.app",
+        "twitter": "https://twitter.com/UTMapp"
+      }
+    },
+    {
+      "name": "Minecraft",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/MinecraftIcon.png",
+      "down": "https://github.com/BHornbeck-ux/AppInstalleriOS/releases/download/Minecraft/Minecraft_1.17.2.ipa",
+      "dev": "Mojang Studios",
+      "category": "Hacked Games",
+      "description": "Minecraft For Free!",
+      "bundleID": "com.AppInstalleriOS.Minecraft",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+      "https://appinstallerios.com/img/CercubeScreenShot2.PNG",
+       "https://appinstallerios.com/img/CercubeScreenShot2.PNG"
+      ],
+      "contact": {
+        "web": "https://apps.apple.com/us/app/minecraft/id479516143",
+        "twitter": "https://twitter.com/Minecraft"
+      }
+    },
+    {
+      "name": "Delta",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/DeltaIcon.png",
+      "down": "https://appinstallerios.com/ipa/Delta.ipa",
+      "dev": "Riley Testut",
+      "category": "Emulators",
+      "description": "Run Old Games In An App!",
+      "bundleID": "com.AppInstalleriOS.Delta",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://appinstallerios.com/img/DeltaScreenshot.png"
+      ],
+      "contact": {
+        "web": "https://www.patreon.com/rileytestut",
+        "twitter": "https://twitter.com/rileytestut"
+      }
+    },
+    {
+      "name": "OldOS",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/OldOSIcon.png",
+      "down": "https://github.com/zzanehip/The-OldOS-Project/releases/download/1.0_11/OldOS.ipa",
+      "dev": "zzanehip",
+      "category": "Tweaked Apps",
+      "description": "Run iOS 4 In An App!",
+      "bundleID": "com.AppInstalleriOS.OldOS",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://appinstallerios.com/img/OldOSScreenShot1.PNG",
+        "https://appinstallerios.com/img/OldOSScreenShot2.PNG"
+      ],
+      "contact": {
+        "web": "https://AppInstalleriOS.com",
+        "twitter": "https://twitter.com/appinstallerios"
+      }
+    },
+    {
+      "name": "SleepSaver Jailed",
+      "version": "1.0",
+      "icon": "https://icons.appinstallerios.com/SleepSaverIcon.png",
+      "down": "https://appinstallerios.com/other/SleepSaver.Jailed.1.3.0.ipa",
+      "dev": "CaspD3V",
+      "banner": "https://appinstallerios.com/img/SleepSaverBanner.jpeg",
+      "category": "Tweaked Apps",
+      "description": "SleepSaver For Non Jailbroken Devices. Apple Screensavers",
+      "bundleID": "com.AppInstalleriOS.SleepSaver",
+      "debs": [
+        ""
+      ],
+      "screenshots": [
+        "https://appinstallerios.com/img/SleepSaverScreenShot.png",
+        "https://appinstallerios.com/img/SleepSaverScreenShot2.png"
+      ],
+      "contact": {
+        "web": "https://AppInstalleriOS.com",
+        "twitter": "https://twitter.com/devcasp"
+      }
+    }
+  ]
 }
